@@ -1,0 +1,268 @@
+$myBlue:#08526d;
+$myRed:#f60a0a;
+body{
+
+}
+// section of top navbar
+.top-navbar{
+  background-color:$myBlue;
+  color:#FFF;
+  height:40px;
+  line-height: 40px;
+  .container-i{
+    float:left;
+  }
+  .i2{
+    margin-left:25px;
+  }
+}
+.menu{
+  .my-navbar{
+    color:$myBlue;
+  }
+}
+// end section of navbar
+
+// section slider
+.my-slider{
+  position:relative;
+  .slider-overlay{
+    position: absolute;
+    color: #FFF;
+    font-size: 40px;
+    top: 150px;
+    left: 420px;
+    width: 500px;
+    height: 200px;
+    background-color: rgba(204,204,204,.7);
+    text-align: center;
+    span{
+      color:$myRed
+    }
+  }
+}
+// end section slider
+
+// start ideas
+.ideas{
+  margin:50px 0;
+  .my-i{
+    color:#FFF;
+    height:70px;
+    width:70px;
+    line-height:70px;
+    border-radius:50%;
+    border:1px solid $myRed;
+    display: inline-block;
+    padding-top: 10px;
+    background-color:$myRed;
+  }
+  h2{
+    color:$myBlue;
+    font-size:30px;
+    font-family:tahoma,arial;
+  }
+  p{
+    color:#687074;
+  }
+}
+// end
+
+// Overview
+.overview{
+  background-color:#f0f5f7;
+  padding:50px 0;
+  h2{
+    color:#000;
+    text-transform:uppercase;
+    margin-bottom:25px;
+  }
+  p,span{
+    color:#687074;
+    display: block;
+  }
+  button{
+    text-align:center;
+    background-color:$myRed;
+    color:#FFF;
+    text-transform:uppercase;
+    padding:7px 10px;
+    border:0;
+    font-size:25px;
+    margin-top: 25px;
+  }
+}
+// end overview
+
+// start latestPost
+.latestPost{
+  margin:50px auto;
+  .top-p{
+    color:#687074;
+    margin:30px auto;
+    width:80%;
+  }
+  img{
+    border-radius:5px;
+  }
+  .row .col-sm-4 .post-h2{
+    color:#08526d;
+    font-size:20px;
+    width:80%;
+    margin:20px 0;
+  }
+  .row .col-sm-4 span{
+    color:#929fa5;
+  }
+  .row .col-sm-4 p{
+    color:#687074;
+    width:90%;
+  }
+  .row .col-sm-4 a{
+    color:red;
+  }
+}
+
+// end latestPost
+
+// start choose us
+.choose{
+  height:500px;
+  img{
+    width:50%;
+    float:left;
+    height:100%;
+  }
+  .content{
+    float:left;
+    width:50%;
+    background-color:#08526d;
+    height:100%;
+    padding:20px 30px;;
+    font-family:tahoma,arial;
+    h2{
+      color:#f7f7f7;
+    }
+    p{
+      color:#f7f7f7;
+      margin-top:30px;
+      width:80%;
+    }
+    button{
+      background-color:$myRed;
+      color:#f7f7f7;
+      padding:7px 10px;
+      text-transform:uppercase;
+      border:0;
+      font-size:15px;
+    }
+  }
+
+}
+// end choose us
+
+// start pricing Table
+.pricing-table{
+  background-color:#f7f7f7;
+  padding-top:40px;
+  height:700px;
+  .price-p{
+    width:70%;
+    margin:0 auto;
+    color:#687074;
+    padding-top:30px;
+  }
+  .tab{
+    height:400px;
+    width:350px;
+    background-color:#FFF;
+    border-radius:5px;
+    margin-top:60px;
+    h2{
+      text-align: center;
+      color:$myBlue;
+      font-weight:300;
+    }
+    span{
+      font-size:15px;
+      opacity:.7;
+      color:#687074;
+      margin-bottom:20px;
+      display:block;
+    }
+    p{
+      color:$myBlue;
+      font-size:35px;
+      font-weight: bold;
+      width:100%;
+      height:60px;
+      background-color:#f7f7f7;
+    }
+    .special{
+      color:#FFF;
+      background-color:$myRed;
+    }
+    ul li{
+      color:#687074;
+      margin:10px auto;
+
+    }
+    .butt{
+      color:#FFF;
+      background-color:$myRed;
+      padding:7px 15px;
+      border:0;
+      font-weight:35px;
+      text-transform:uppercase;
+      margin-top:30px;
+    }
+    .sp-button{
+      background-color:$myBlue;
+    }
+  }
+  .sp-table{
+    margin-top:-30px;
+  }
+}
+// end pricing table
+
+// start doing-job
+.doing-job{
+  padding:50px 0;
+  .my-i{
+    color:$myBlue;
+  }
+  span{
+    display:block !important;
+    color:$myBlue;
+  }
+  p{
+    color:$myRed;
+  }
+}
+// end doing-job
+
+// start contact-us
+.contact-us{
+  background-color:$myRed;
+  color:#FFF;
+  min-height:100px;
+  padding-top:30px;
+  h2{
+    float:left;
+  }
+  button{
+    color:#FFF;
+    float:right;
+    background-color:transparent;
+    border:2px solid #FFF;
+    padding:7px 15px;
+  }
+}
+// end contact-us
+
+// copyright
+.copyright{
+  background-color:#f7f7f7;
+  padding:20px 0;
+}

@@ -1,0 +1,189 @@
+doctype
+html(lang='eng')
+  head
+    meta(charset='utf-8')
+    meta(description='This is first template created by zied ben fraj')
+    title
+      |template number 1
+    link(rel='stylesheet', href='css/all.min.css')
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    link(rel='stylesheet', href='css/file.css')
+    
+  body
+    //- section of top-navbar
+    div(class='top-navbar')
+      div(class='container')
+        div(class='container-i')
+          i(class="fas fa-phone-volume")
+          |   +21626161336  
+        div(class='container-i i2') 
+          i(class='fas fa-envelope-open')
+          |   ziedbenfrajj@gmail.com
+    //- end sectionj top-navbar
+    
+    //- section of Menu
+    div(class='menu')
+      include plugin/navbar.pug
+        
+    //- end section menu
+    
+    //- slider
+    div(class='my-slider')
+      include plugin/slider.pug
+      div.container
+        div(class='slider-overlay') we’re an independent Design and #[span Development] Agency
+    //- end slider
+    
+    //- start ideas
+    div(class='ideas text-center')
+      div(class='container')
+        div(class='row')
+          div(class='col-sm-3')
+            div(class='my-i text-center')
+              i(class=' fas fa-lightbulb fa-3x' )
+            h2 Great ideas
+            p Lorem ipsum dolor sit amet, sectetur adipisicing elit,  eiusmod tempor incididunalquis
+          div(class='col-sm-3')
+            div(class='my-i text-center')
+              i(class='far fa-sun fa-3x')
+            h2 Quick Settings
+            p Lorem ipsum dolor sit amet, sectetur adipisicing elit,  eiusmod tempor incididunalquis
+          div(class='col-sm-3')
+            div(class='my-i text-center')
+              i(class='fas fa-cloud-upload-alt fa-3x')
+            h2 Cloud Service
+            p Lorem ipsum dolor sit amet, sectetur adipisicing elit,  eiusmod tempor incididunalquis
+          div(class='col-sm-3')
+            div(class='my-i text-center')
+              i(class='fab fa-dev fa-3x' )
+            h2  Development
+            p Lorem ipsum dolor sit amet, sectetur adipisicing elit,  eiusmod tempor incididunalquis
+          
+              
+    //- end ideas
+    
+    //- start overview
+    div(class='overview text-center')
+      div(class='container')
+        h2 Company Overview
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+        span Let’s Start Today
+        button view More
+    //- end overview
+    
+    //- start latestPost
+    
+    div(class='latestPost')
+      div(class='container')
+        h2(class='text-center') Latest Post
+        p(class='text-center top-p') Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+        div(class='row')
+          div(class='col-sm-4')
+            img(src='img/post1.jpg')
+            h2(class='post-h2') Lorem Ipsum is simply dummy text ofthe printing and
+            span March 24 2017
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+            a(href='#') Read more
+          div(class='col-sm-4')
+            img(src='img/post2.jpg')
+            h2(class='post-h2') Lorem Ipsum is simply dummy text ofthe printing and
+            span March 24 2017
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+            a(href='#') Read more
+          div(class='col-sm-4')
+            img(src='img/post3.jpg')
+            h2(class='post-h2') Lorem Ipsum is simply dummy text ofthe printing and
+            span March 24 2017
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+            a(href='#') Read more
+    //- end latestPost
+    
+    //- start why choose us
+    div(class='choose')
+      img(src='img/he.jpg')
+      div(class='content')
+        h2 why choose us ?
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+        button view more
+    //- end why choose us
+    //- start pricing table
+    div(class='pricing-table')
+      div(class='container')
+        h2(class='text-center') pricing Table
+        p(class='text-center price-p') Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+        div(class='content')
+          div(class='row')
+            div(class='col-sm-4')
+              div(class='tab text-center')
+                h2 Small business
+                span For the small company
+                p $99/year
+                ul(class='list-unstyled')
+                  li email
+                  li hosting
+                  li prof domaine
+                  li vpn
+                button(class='butt') Buy now
+            div(class='col-sm-4 sp-table')
+              div(class='tab text-center')
+                h2 Small business
+                span For the small company
+                p(class='special') $129/year
+                ul(class='list-unstyled')
+                  li email
+                  li hosting
+                  li prof domaine
+                  li vpn
+                button(class='butt sp-button') Buy now
+            div(class='col-sm-4 ')
+              div(class='tab text-center')
+                h2 Small business
+                span For the small company
+                p $249/year
+                ul(class='list-unstyled')
+                  li email
+                  li hosting
+                  li prof domaine
+                  li vpn
+                button(class='butt') Buy now
+    //- end pricing table
+    //- start doing job
+    div(class='doing-job text-center')
+      div(class='container')
+        div(class='row')
+          div(class='col-sm-3')
+            i(class="fas fa-male fa-4x my-i")
+            span 624
+            p Happy clients
+          div(class='col-sm-3')
+            i(class="far fa-envelope my-i fa-4x")
+            span 112
+            p Amazing tours
+          div(class='col-sm-3')
+            i(class="far fa-handshake my-i fa-4x")
+            span 595
+            p Partners
+          div(class='col-sm-3')
+            i(class="fas fa-lira-sign my-i fa-4x")
+            span 90
+            p Questions Answered
+    //- end doing job
+    
+    //- start contact us
+    div(class='contact-us')
+      div(class='container')
+        h2 You think we're cool? let's work together
+        button Contact Us
+    //- end contact us
+    
+    //- copyright
+    div(class='copyright text-center')
+      p COPYRIGHT 2019 Zied Ben Fraj | ALL RIGHTS RESERVED
+      
+      
+      
+    script(src='js/jquery.min.js')  
+    script(src='js/all.min.js')
+    script(src='js/bootstrap.min.js')
+    

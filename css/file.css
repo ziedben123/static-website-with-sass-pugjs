@@ -1,0 +1,195 @@
+.top-navbar {
+  background-color: #08526d;
+  color: #FFF;
+  height: 40px;
+  line-height: 40px; }
+  .top-navbar .container-i {
+    float: left; }
+  .top-navbar .i2 {
+    margin-left: 25px; }
+
+.menu .my-navbar {
+  color: #08526d; }
+
+.my-slider {
+  position: relative; }
+  .my-slider .slider-overlay {
+    position: absolute;
+    color: #FFF;
+    font-size: 40px;
+    top: 150px;
+    left: 420px;
+    width: 500px;
+    height: 200px;
+    background-color: rgba(204, 204, 204, 0.7);
+    text-align: center; }
+    .my-slider .slider-overlay span {
+      color: #f60a0a; }
+
+.ideas {
+  margin: 50px 0; }
+  .ideas .my-i {
+    color: #FFF;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    border: 1px solid #f60a0a;
+    display: inline-block;
+    padding-top: 10px;
+    background-color: #f60a0a; }
+  .ideas h2 {
+    color: #08526d;
+    font-size: 30px;
+    font-family: tahoma,arial; }
+  .ideas p {
+    color: #687074; }
+
+.overview {
+  background-color: #f0f5f7;
+  padding: 50px 0; }
+  .overview h2 {
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+  .overview p, .overview span {
+    color: #687074;
+    display: block; }
+  .overview button {
+    text-align: center;
+    background-color: #f60a0a;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border: 0;
+    font-size: 25px;
+    margin-top: 25px; }
+
+.latestPost {
+  margin: 50px auto; }
+  .latestPost .top-p {
+    color: #687074;
+    margin: 30px auto;
+    width: 80%; }
+  .latestPost img {
+    border-radius: 5px; }
+  .latestPost .row .col-sm-4 .post-h2 {
+    color: #08526d;
+    font-size: 20px;
+    width: 80%;
+    margin: 20px 0; }
+  .latestPost .row .col-sm-4 span {
+    color: #929fa5; }
+  .latestPost .row .col-sm-4 p {
+    color: #687074;
+    width: 90%; }
+  .latestPost .row .col-sm-4 a {
+    color: red; }
+
+.choose {
+  height: 500px; }
+  .choose img {
+    width: 50%;
+    float: left;
+    height: 100%; }
+  .choose .content {
+    float: left;
+    width: 50%;
+    background-color: #08526d;
+    height: 100%;
+    padding: 20px 30px;
+    font-family: tahoma,arial; }
+    .choose .content h2 {
+      color: #f7f7f7; }
+    .choose .content p {
+      color: #f7f7f7;
+      margin-top: 30px;
+      width: 80%; }
+    .choose .content button {
+      background-color: #f60a0a;
+      color: #f7f7f7;
+      padding: 7px 10px;
+      text-transform: uppercase;
+      border: 0;
+      font-size: 15px; }
+
+.pricing-table {
+  background-color: #f7f7f7;
+  padding-top: 40px;
+  height: 700px; }
+  .pricing-table .price-p {
+    width: 70%;
+    margin: 0 auto;
+    color: #687074;
+    padding-top: 30px; }
+  .pricing-table .tab {
+    height: 400px;
+    width: 350px;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin-top: 60px; }
+    .pricing-table .tab h2 {
+      text-align: center;
+      color: #08526d;
+      font-weight: 300; }
+    .pricing-table .tab span {
+      font-size: 15px;
+      opacity: .7;
+      color: #687074;
+      margin-bottom: 20px;
+      display: block; }
+    .pricing-table .tab p {
+      color: #08526d;
+      font-size: 35px;
+      font-weight: bold;
+      width: 100%;
+      height: 60px;
+      background-color: #f7f7f7; }
+    .pricing-table .tab .special {
+      color: #FFF;
+      background-color: #f60a0a; }
+    .pricing-table .tab ul li {
+      color: #687074;
+      margin: 10px auto; }
+    .pricing-table .tab .butt {
+      color: #FFF;
+      background-color: #f60a0a;
+      padding: 7px 15px;
+      border: 0;
+      font-weight: 35px;
+      text-transform: uppercase;
+      margin-top: 30px; }
+    .pricing-table .tab .sp-button {
+      background-color: #08526d; }
+  .pricing-table .sp-table {
+    margin-top: -30px; }
+
+.doing-job {
+  padding: 50px 0; }
+  .doing-job .my-i {
+    color: #08526d; }
+  .doing-job span {
+    display: block !important;
+    color: #08526d; }
+  .doing-job p {
+    color: #f60a0a; }
+
+.contact-us {
+  background-color: #f60a0a;
+  color: #FFF;
+  min-height: 100px;
+  padding-top: 30px; }
+  .contact-us h2 {
+    float: left; }
+  .contact-us button {
+    color: #FFF;
+    float: right;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    padding: 7px 15px; }
+
+.copyright {
+  background-color: #f7f7f7;
+  padding: 20px 0; }
+
+/*# sourceMappingURL=file.css.map */
